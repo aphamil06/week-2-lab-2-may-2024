@@ -5,29 +5,58 @@ html {
 
 footer {
   text-align: center;
-  font-size: x-small;
+  font-size: medium;
 }
 
-body {text-align: center;
-  background-image:radial-gradient(red,blue);
-color:white;}
+body {
+  text-align: center;
+  background-image: radial-gradient(red, blue);
+  color: white;
+}
 
-h1 {color: white;}
-h2 {color:white;}
-h3{color:white;}
-nav {text-align: right;background-color:white;
-padding: 20px;
-margin-bottom:50px;}
+nav {
+  text-align: right;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
 
-ul {list-style-position:inside;
-text-align:start;}
+nav a {
+  font-size: large;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+}
 
-ol {list-style-position:inside;
-  text-align:center;}
+ul {
+  list-style-position: inside;
+  text-align: start;
+}
 
-table,th,td{border:solid;
-margin-left:auto;
-margin-right:auto;}
+ol {
+  list-style-position: inside;
+  text-align: center;
+}
 
-p {font-size:20px}
-img {margin:}
+table,
+th,
+td {
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 20px;
+}
+img {
+  height:300px
+}
+.main-image {
+  padding:30px;
+  background-color:tan;
+  border:solid white 10px;
+  margin:40px
+}
